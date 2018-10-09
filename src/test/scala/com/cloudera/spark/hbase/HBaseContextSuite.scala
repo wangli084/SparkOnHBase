@@ -22,6 +22,7 @@ class HBaseContextSuite extends FunSuite with BeforeAndAfterEach with BeforeAndA
 
   val tableName = "t1"
   val columnFamily = "c"
+  //val columnFamily = "abc"
 
   var sc:SparkContext = null;
 

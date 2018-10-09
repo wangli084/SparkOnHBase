@@ -33,6 +33,7 @@ public class JavaHBaseContextSuite implements Serializable {
 
   String tableName = "t1";
   //String columnFamily = "abc";
+  String columnFamily = "ccc";
 
   @Before
   public void setUp() {
