@@ -32,7 +32,7 @@ public class JavaHBaseContextSuite implements Serializable {
   HBaseTestingUtility htu;
 
   String tableName = "t1";
-  String columnFamily = "c";
+  //String columnFamily = "abc";
 
   @Before
   public void setUp() {
